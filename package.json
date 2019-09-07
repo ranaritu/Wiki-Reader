@@ -1,0 +1,25 @@
+{
+  "name": "wikipedia-reader",
+  "version": "1.0.0",
+  "description": "A REPL CLI application for reading Wikipedia Articles",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ./main.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "None"
+  },
+  "keywords": [
+    "Wikipedia",
+    "CLI",
+    "REPL"
+  ],
+  "author": "Ritu Rana",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "html-to-text": "^5.1.1",
+    "request": "^2.88.0"
+  }
+}
